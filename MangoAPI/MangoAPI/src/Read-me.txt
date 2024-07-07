@@ -1,0 +1,5 @@
+1) Build the docker image:
+docker build -t rvezy_kambiz_coding_challenge .
+
+2) Run Docker Container:
+docker run -d -p 8080:80 --name rvezy-kambiz-coding-instance rvezy_kambiz_coding_challenge
